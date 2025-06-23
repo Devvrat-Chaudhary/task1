@@ -85,7 +85,7 @@ A cleaned and preprocessed dataset ready for further model training and evaluati
 
 ###  How to Run
 
-1. Open the Colab notebook: `Task1_Data_Preprocessing.ipynb`
+1. Open the Colab notebook: `Task1.ipynb`
 2. Upload `titanic.csv` to `/content/`
 3. Run the notebook cells sequentially
 
