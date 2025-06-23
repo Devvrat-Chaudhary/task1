@@ -44,7 +44,7 @@ To apply essential data preprocessing techniques to clean and prepare raw data (
 | ---------- | ----------------- | ---------------------------------------------------------------- |
 | `Age`      | Median Imputation | ✅ Good for skewed data and avoids outlier influence              |
 | `Embarked` | Mode Imputation   | ✅ Reasonable for categorical features with few missing entries   |
-| `Cabin`    | Dropped           | ✅ Acceptable if >70–80% missing, but may lose useful information |
+| `Cabin`    | Dropped           | ✅ Acceptable if not more than 20-30% missing, but may lose useful information |
 
 
 4. **Categorical Encoding**
