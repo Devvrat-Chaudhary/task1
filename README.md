@@ -39,13 +39,12 @@ To apply essential data preprocessing techniques to clean and prepare raw data (
    * Imputed `Age` with median.
    * Filled `Embarked` with mode.
    * Dropped the `Cabin` column due to excessive missing data.
-   * 
+     
 | Feature    | Method Used       | Comment                                                          |
 | ---------- | ----------------- | ---------------------------------------------------------------- |
 | `Age`      | Median Imputation | ✅ Good for skewed data and avoids outlier influence              |
 | `Embarked` | Mode Imputation   | ✅ Reasonable for categorical features with few missing entries   |
 | `Cabin`    | Dropped           | ✅ Acceptable if >70–80% missing, but may lose useful information |
-
 
 
 4. **Categorical Encoding**
